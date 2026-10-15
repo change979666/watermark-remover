@@ -29,10 +29,14 @@ A Python desktop image toolkit for watermark inpainting, batch format conversion
 
 ## 系统要求
 
-- Windows 7/8/10/11 (64位系统)
+- Windows 10/11（64 位系统；更早版本未逐一验证）
 - 至少4GB内存
 - 500MB可用硬盘空间
 - 显示分辨率：1280x720或更高
+
+## 关于 OCR 模块（实验性）
+
+仓库中的 `image_tools/ocr/` 与 `image_tools/volcano_ocr/` 为**实验性模块，尚未接入主界面**，不构成当前正式功能。当前正式功能仅包括：水印去除、格式转换、图像增强。
 
 ## 项目结构
 
@@ -91,11 +95,9 @@ A Python desktop image toolkit for watermark inpainting, batch format conversion
 
 ## 安装说明
 
-### 方法一：使用预编译版本
+### 方法一：从源码运行（当前未发布预编译包）
 
-1. 从发布页面下载最新版本的预编译包
-2. 解压到任意目录
-3. 双击运行"图像处理工具.exe"
+直接使用下方“方法二”的源码运行方式；如需本地打包 exe，可参考 `pyinstaller_script.py` 与 `图像处理工具.spec`（PyInstaller 配置），打包产物仅在本地生成，未随仓库发布。
 
 ### 方法二：从源码运行
 
