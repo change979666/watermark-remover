@@ -56,8 +56,7 @@ A Python desktop image toolkit for watermark inpainting, batch format conversion
 │   │   ├── converter_tab.py        # 格式转换界面组件
 │   ├── enhance/                    # 图像增强模块
 │   │   ├── __init__.py             # 模块初始化文件
-│   │   ├── image_enhancer.py       # 图像增强核心类
-│   │   ├── enhancer_tab.py         # 图像增强界面组件
+│   │   ├── enhancer_tab.py         # 图像增强界面与核心处理逻辑
 │   ├── utils/                      # 工具类
 │   │   ├── __init__.py             # 模块初始化文件
 │   │   ├── image_utils.py          # 图像处理工具函数
