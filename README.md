@@ -1,6 +1,8 @@
-# 图像处理工具
+# Image Tools（图像工具箱）
 
-一款多功能图像处理工具，支持水印去除、图片格式转换和图像增强功能。
+A Python desktop image toolkit for watermark inpainting, batch format conversion, and image enhancement.
+
+一款基于 Python、Tkinter、OpenCV 和 Pillow 的桌面图像工具，支持手动标记水印区域并修复、批量转换图片格式，以及调整亮度、对比度、锐度和降噪参数。
 
 ## 功能特点
 
@@ -99,8 +101,8 @@
 
 ```bash
 # 克隆代码仓库
-git clone https://github.com/yourusername/image-processing-tool.git
-cd image-processing-tool
+git clone https://github.com/change979666/watermark-remover.git
+cd watermark-remover
 
 # 创建虚拟环境（可选但推荐）
 python -m venv venv
@@ -166,11 +168,9 @@ python main.py
 - [ ] 增加批处理进度可视化
 - [ ] 添加自动水印检测功能
 
-## 贡献者
+## 贡献与反馈
 
-- 开发者1 - 核心功能开发
-- 开发者2 - UI设计与实现
-- 开发者3 - 高级算法优化
+欢迎通过 GitHub Issues 报告可复现的问题，或提交 Pull Request 改进功能和文档。提交前请确认代码、图片样例和日志不包含个人隐私或未经授权的素材。
 
 ## 许可证
 
