@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# 构建产物
+build/
+dist/
+*.exe
+*.zip
+
+# 运行时配置（含用户 API 密钥，勿提交）
+config/
+*.json
+!package.json
+!manifest.json
+!templates.json
+!message_templates.json
+
+# 日志
+*.log
+logs/
+
+# 系统
+.DS_Store
+Thumbs.db
